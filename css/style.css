@@ -1,3 +1,23 @@
+.container {
+  margin: 0 auto;
+}
+
+.card-text {
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.card-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .card-wrapper {
   width: 751px;
   height: 381px;
@@ -28,14 +48,11 @@
   height: 343px;
   border: 1px solid grey;
   border-radius: 15px;
-  background: white;
-  background: #de1612;
+  background: #DEDEDE;
   position: absolute;
 }
 
 .card-image {
-  width: 100px;
-  height: 40px;
   position: absolute;
   left: 30px;
   top: 40px;
